@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
+import { EstudiosModel } from './estudiosModel';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-estudios',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './estudios.html',
   styleUrl: './estudios.css',
   standalone: true
 })
 export class Estudios {
   titulo = 'Estudios';
+  estudios = new EstudiosModel().estudios;
 }

@@ -1,2 +1,7 @@
 <h1>{{titulo}}</h1>
 <p>Aquí puedes agregar el contenido relacionado con tus estudios.</p>
+<ul>
+    <li *ngFor="let estudio of estudios">
+        <strong>{{estudio.institucion}}</strong> {{estudio.titulo}} ({{estudio.periodo}}) 
+    </li>
+</ul>
