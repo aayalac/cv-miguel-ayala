@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PresentacionModel } from './presentacionModel';
 
 @Component({
   selector: 'app-presentacion',
@@ -9,6 +10,6 @@ import { Component } from '@angular/core';
 })
 export class Presentacion {
   titulo = 'Presentación';
-  descripcion = 'Bienvenido a mi currículum vitae. Aquí encontrarás información sobre mi formación, experiencia y habilidades.';
-  habilidades = ['Desarrollo Web', 'Angular', 'JavaScript', 'HTML', 'CSS', 'TypeScript'];
+  presentacion: PresentacionModel["habilidades"] = new PresentacionModel().habilidades;
+  descripcion: PresentacionModel["descripcion"] = new PresentacionModel().descripcion;
 }
