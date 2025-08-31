@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PresentacionModel } from './presentacionModel';
+import { PresentacionModel } from '../Models/presentacionModel';
 
 @Component({
   selector: 'app-presentacion',

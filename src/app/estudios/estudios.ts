@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { EstudiosModel } from './estudiosModel';
+import { EstudiosModel } from '../Models/estudiosModel';
 import { CommonModule } from '@angular/common';
 
 @Component({
