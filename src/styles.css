@@ -1,4 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0; font-family: monospace;
+    background: #1e1e1e; color: #d4d4d4;
+    font-size: 16px; line-height: 1.5em;
+    overflow: hidden; 
+    display: flex; flex-direction: column; 
+}   
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a {
+     color: #569cd6; text-decoration: none; 
+}
+
+a:hover {
+     text-decoration: underline; 
+}
+
+.box {
+    border: 5px solid white;
+    padding: 10px;
+    margin: 8px;    
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #888;
+}
