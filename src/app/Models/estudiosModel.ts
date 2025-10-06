@@ -6,14 +6,19 @@ export class EstudiosModel {
       periodo: 2022
     },
     {
-      titulo: 'Curso de Desarrollo Web',
-      institucion: 'Platzi',
-      periodo: 2021
+      titulo: 'Desarrolllo de aplicaciones web en ASP .NET',
+      institucion: 'Universisdad Compensar',
+      periodo: 2022
     },
     {
-      titulo: 'Certificación en Angular',
-      institucion: 'Udemy',
-      periodo: 2022
+      titulo: 'Azure Fundamentals AZ-900',
+      institucion: 'Microsoft',
+      periodo: 2024
+    },
+    {
+      titulo: 'Azure Fundamentals SC-900',
+      institucion: 'Microsoft',
+      periodo: 2025
     }
   ];
 }
