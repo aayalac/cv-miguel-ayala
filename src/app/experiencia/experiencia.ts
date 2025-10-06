@@ -12,5 +12,6 @@ import { ExperienciaModel } from '../Models/experienciaModel';
 
 export class Experiencia {
   titulo = new ExperienciaModel().titulo;
-  proyectos = new ExperienciaModel().proyectos;  
+  descripcion = new ExperienciaModel().descripcion;
+  proyectos = new ExperienciaModel().proyectos;
 }
