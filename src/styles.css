@@ -1,13 +1,17 @@
 body {
     margin: 0; font-family: monospace;
-    background: #f3ffd2; color: #2e0527;
+    background: #f3ffd2; color: #1A1A1A;
     font-size: 16px; line-height: 1.5em;
     display: flex; flex-direction: column; 
 }
 
 .header{
-    background: #f3ffd2; color: #2e0527;
-    border: 5px solid #82bda7;
+    padding: 10px;
+    font-size: 14px;
+    color: #888;
+    border: 5px solid #1B4332;
+    padding: 10px;
+    margin: 8px;
 }
 
 a {
@@ -19,7 +23,7 @@ a:hover {
 }
 
 .box {
-    border: 5px solid #82bda7;
+    border: 5px solid #1B4332;
     padding: 10px;
     margin: 8px;    
 }
@@ -28,7 +32,7 @@ footer {
     padding: 10px;
     font-size: 14px;
     color: #888;
-    border: 5px solid #82bda7;
+    border: 5px solid #1B4332;
     padding: 10px;
     margin: 8px;
 }
