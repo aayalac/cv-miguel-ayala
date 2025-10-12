@@ -1,8 +1,13 @@
 body {
     margin: 0; font-family: monospace;
-    background: #1e1e1e; color: #d4d4d4;
+    background: #f3ffd2; color: #2e0527;
     font-size: 16px; line-height: 1.5em;
     display: flex; flex-direction: column; 
+}
+
+.header{
+    background: #f3ffd2; color: #2e0527;
+    border: 5px solid #82bda7;
 }
 
 a {
@@ -14,7 +19,7 @@ a:hover {
 }
 
 .box {
-    border: 5px solid white;
+    border: 5px solid #82bda7;
     padding: 10px;
     margin: 8px;    
 }
@@ -23,7 +28,7 @@ footer {
     padding: 10px;
     font-size: 14px;
     color: #888;
-    border: 5px solid white;
+    border: 5px solid #82bda7;
     padding: 10px;
     margin: 8px;
 }
