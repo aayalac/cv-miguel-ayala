@@ -29,9 +29,9 @@ a:hover {
 }
 footer {
     text-align: center;
+    background: #f3ffd2; color: #1A1A1A;
     padding: 10px;
     font-size: 14px;
-    color: #888;
     border: 5px solid #1B4332;
     padding: 10px;
     margin: 8px;
