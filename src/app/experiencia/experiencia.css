@@ -1,6 +1,6 @@
 .experiencia-container {
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #f3ffd2;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -30,6 +30,7 @@
     background-color: #f8f9fa;
     border-radius: 6px;
     transition: transform 0.3s ease;
+    border: solid 1px #ddd;
 }
 
 .proyecto-card:hover {
