@@ -11,6 +11,6 @@ export class PresentacionModel {
             'HTML',
             'CSS',
             'TypeScript'],
-        public descripcion: string = 'Ingeniero de Sistemas con experiencia en desarrollo web y aplicaciones móviles. Apasionado por la tecnología y el aprendizaje continuo.'
+        public descripcion: string = 'Ingeniero de sistemas con más de 2 años de experiencia en desarrollo Full Stack con .NET Core, Angular y React. Experto en integración de servicios RESTful, bases de datos SQL Server y Oracle, y despliegue de aplicaciones en Azure. Enfocado en buenas prácticas, arquitectura limpia y metodologías ágiles.'
     ) {}
 }
