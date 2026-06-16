@@ -3,7 +3,7 @@ export class ExperienciaModel {
   descripcion = 'A continuación se muestra un resumen de mi experiencia laboral y proyectos destacados.';
   proyectos: {nombre: string; descripcion: string}[] = [
     { nombre: 'CIISA Global Solutions',
-       descripcion: 'Desarrollo de aplicativos web, empleando diferentes herramientas de desarrollo y Frameworks como lo son Microsoft .NET, .NET Core, Angular, MSSQL, Oracle SQL (PL/SQL), manejo de Apis (WSDL, REST, Swagger), Control de versiones (Git, GitHub y Azure DevOps).'
+       descripcion: 'Desarrollo de aplicativos web, en tecnologias de .NET framework y .NET Core, se emplea soluciones de DDD + Clean Architecture de acuerdo a los lineamientos de la fábrica de Software.'
     },
     { nombre: 'Global Hitss Colombia',
        descripcion: 'Desarrollo de soluciones tecnológicas para una importante multinacional de telecomunicaciones de manera transversal, empleando diferentes herramientas de desarrollo y Frameworks como lo son Microsoft .NET, .NET Core, Angular, MSSQL, Oracle SQL (PL/SQL), manejo de Apis (WSDL, REST, Swagger), Control de versiones (Git, GitHub y Azure DevOps).'
