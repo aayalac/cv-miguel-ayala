@@ -44,3 +44,22 @@
     font-size: 1.1rem;
     line-height: 1.8;
 }
+
+@keyframes fadeInItem {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-visible .perfil-header {
+    animation: fadeInItem 0.5s ease-out 0.1s both;
+}
+
+.scroll-visible .habilidades-section {
+    animation: fadeInItem 0.5s ease-out 0.3s both;
+}

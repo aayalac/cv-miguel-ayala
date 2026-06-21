@@ -52,3 +52,34 @@
     font-size: 1.1rem;
     margin: 0;
 }
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-visible .titulo {
+    animation: fadeInCard 0.5s ease-out 0.1s both;
+}
+
+.scroll-visible .estudio-card:nth-child(1) {
+    animation: fadeInCard 0.5s ease-out 0.2s both;
+}
+
+.scroll-visible .estudio-card:nth-child(2) {
+    animation: fadeInCard 0.5s ease-out 0.35s both;
+}
+
+.scroll-visible .estudio-card:nth-child(3) {
+    animation: fadeInCard 0.5s ease-out 0.5s both;
+}
+
+.scroll-visible .estudio-card:nth-child(4) {
+    animation: fadeInCard 0.5s ease-out 0.65s both;
+}
