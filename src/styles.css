@@ -1,3 +1,75 @@
+:root {
+  --cv-bg: #f3ffd2;
+  --cv-card-bg: #f8f9fa;
+  --cv-title: #2c3e50;
+  --cv-subtitle: #34495e;
+  --cv-text: #555;
+  --cv-muted: #7f8c8d;
+  --cv-border: #ddd;
+  --cv-accent: #1B4332;
+  --cv-container-pad: 2rem;
+  --cv-card-pad: 1.5rem;
+  --cv-container-radius: 8px;
+  --cv-card-radius: 6px;
+  --cv-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  padding: var(--cv-container-pad);
+  background-color: var(--cv-bg);
+  border-radius: var(--cv-container-radius);
+  box-shadow: var(--cv-shadow);
+}
+
+.section-title {
+  color: var(--cv-title);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-desc {
+  color: var(--cv-muted);
+  font-size: 1.2rem;
+}
+
+.card {
+  padding: var(--cv-card-pad);
+  background-color: var(--cv-card-bg);
+  border-radius: var(--cv-card-radius);
+  border: solid 1px var(--cv-border);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: var(--cv-subtitle);
+  margin: 0;
+}
+
+.card-text {
+  color: var(--cv-text);
+  font-size: 1.1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.scroll-visible .anim {
+  animation: fadeIn 0.5s ease-out both;
+}
+
+.scroll-visible .anim-d1 { animation-delay: 0.1s; }
+.scroll-visible .anim-d2 { animation-delay: 0.2s; }
+.scroll-visible .anim-d3 { animation-delay: 0.3s; }
+.scroll-visible .anim-d4 { animation-delay: 0.45s; }
+.scroll-visible .anim-d5 { animation-delay: 0.6s; }
+.scroll-visible .anim-d6 { animation-delay: 0.65s; }
+
 body {
     margin: 0; font-family: monospace;
     background: #f3ffd2; color: #1A1A1A;
@@ -7,9 +79,9 @@ body {
 
 mat-toolbar.header {
     font-family: monospace;    
-    color: #34495e;
+    color: var(--cv-subtitle);
     font-size: 20px;    
-    border: 5px solid #1B4332;
+    border: 5px solid var(--cv-accent);
     padding: 10px;
     margin: 5px;
 }
@@ -27,16 +99,15 @@ a:hover {
 }
 
 .box {
-    border: 5px solid #1B4332;
+    border: 5px solid var(--cv-accent);
     padding: 10px;
     margin: 8px;    
 }
 footer {
     text-align: center;
-    background: #f3ffd2; color: #1A1A1A;
+    background: var(--cv-bg); color: #1A1A1A;
     padding: 10px;
     font-size: 14px;
-    border: 5px solid #1B4332;
-    padding: 10px;
+    border: 5px solid var(--cv-accent);
     margin: 8px;
 }
