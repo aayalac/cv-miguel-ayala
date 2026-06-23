@@ -1,14 +1,14 @@
-<div class="estudios-container">
-    <h1 class="titulo">{{titulo}}</h1>
+<div class="section">
+    <h1 class="section-title anim anim-d1">{{titulo}}</h1>
     
     <div class="estudios-list">
-        <div class="estudio-card" *ngFor="let estudio of estudios">
+        <div class="card anim" *ngFor="let estudio of estudios">
             <div class="estudio-header">
-                <h3 class="estudio-titulo">{{estudio.titulo}}</h3>
+                <h3 class="card-title">{{estudio.titulo}}</h3>
                 <span class="periodo">{{estudio.periodo}}</span>
             </div>
             <div class="estudio-content">
-                <p class="institucion">{{estudio.institucion}}</p>
+                <p class="card-text">{{estudio.institucion}}</p>
             </div>
         </div>
     </div>

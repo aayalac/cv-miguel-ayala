@@ -1,32 +1,6 @@
-.estudios-container {
-    padding: 2rem;
-    background-color: #f3ffd2;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.titulo {
-    color: #2c3e50;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
 .estudios-list {
     display: grid;
     gap: 1.5rem;
-}
-
-.estudio-card {
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 6px;
-    transition: transform 0.3s ease;
-    border: solid 1px #ddd;
-}
-
-.estudio-card:hover {
-    transform: translateY(-5px);
 }
 
 .estudio-header {
@@ -36,50 +10,16 @@
     margin-bottom: 1rem;
 }
 
-.estudio-titulo {
-    color: #34495e;
-    font-size: 1.4rem;
-    margin: 0;
-}
-
 .periodo {
-    color: #7f8c8d;
+    color: var(--cv-muted);
     font-size: 0.9rem;
 }
 
-.institucion {
-    color: #555;
-    font-size: 1.1rem;
-    margin: 0;
+.section-title {
+    margin-bottom: 2rem;
 }
 
-@keyframes fadeInCard {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.scroll-visible .titulo {
-    animation: fadeInCard 0.5s ease-out 0.1s both;
-}
-
-.scroll-visible .estudio-card:nth-child(1) {
-    animation: fadeInCard 0.5s ease-out 0.2s both;
-}
-
-.scroll-visible .estudio-card:nth-child(2) {
-    animation: fadeInCard 0.5s ease-out 0.35s both;
-}
-
-.scroll-visible .estudio-card:nth-child(3) {
-    animation: fadeInCard 0.5s ease-out 0.5s both;
-}
-
-.scroll-visible .estudio-card:nth-child(4) {
-    animation: fadeInCard 0.5s ease-out 0.65s both;
-}
+.scroll-visible .estudios-list > .card:nth-child(1) { animation-delay: 0.2s; }
+.scroll-visible .estudios-list > .card:nth-child(2) { animation-delay: 0.35s; }
+.scroll-visible .estudios-list > .card:nth-child(3) { animation-delay: 0.5s; }
+.scroll-visible .estudios-list > .card:nth-child(4) { animation-delay: 0.65s; }
